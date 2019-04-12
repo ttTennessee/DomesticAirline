@@ -1,0 +1,172 @@
+<DataSet xmlns="http://WebXml.com.cn/">
+	<xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="Airlines">
+		<xs:element name="Airlines" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="AirlinesTime">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Company" type="xs:string" minOccurs="0"/>
+								<xs:element name="AirlineCode" type="xs:string" minOccurs="0"/>
+								<xs:element name="StartDrome" type="xs:string" minOccurs="0"/>
+								<xs:element name="ArriveDrome" type="xs:string" minOccurs="0"/>
+								<xs:element name="StartTime" type="xs:string" minOccurs="0"/>
+								<xs:element name="ArriveTime" type="xs:string" minOccurs="0"/>
+								<xs:element name="Mode" type="xs:string" minOccurs="0"/>
+								<xs:element name="AirlineStop" type="xs:string" minOccurs="0"/>
+								<xs:element name="Week" type="xs:string" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+		<Airlines xmlns="">
+			<AirlinesTime diffgr:id="AirlinesTime1" msdata:rowOrder="0">
+				<Company>山东航空</Company>
+				<AirlineCode>SC4779</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>07:00</StartTime>
+				<ArriveTime>09:05</ArriveTime>
+				<Mode>738</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>246</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime2" msdata:rowOrder="1">
+				<Company>中国国航</Company>
+				<AirlineCode>CA4779</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>07:00</StartTime>
+				<ArriveTime>09:05</ArriveTime>
+				<Mode>738</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>246</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime3" msdata:rowOrder="2">
+				<Company>南方航空</Company>
+				<AirlineCode>CZ5155</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>07:10</StartTime>
+				<ArriveTime>09:10</ArriveTime>
+				<Mode>737</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>123456日</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime4" msdata:rowOrder="3">
+				<Company>厦门航空</Company>
+				<AirlineCode>MF8209</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>07:10</StartTime>
+				<ArriveTime>09:10</ArriveTime>
+				<Mode>737</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>123456日</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime5" msdata:rowOrder="4">
+				<Company>海南航空</Company>
+				<AirlineCode>HU7693</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>08:40</StartTime>
+				<ArriveTime>10:45</ArriveTime>
+				<Mode>738</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>123456日</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime6" msdata:rowOrder="5">
+				<Company>东方航空</Company>
+				<AirlineCode>MU5596</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>10:45</StartTime>
+				<ArriveTime>14:30</ArriveTime>
+				<Mode>320</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>123456日</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime7" msdata:rowOrder="6">
+				<Company>南方航空</Company>
+				<AirlineCode>CZ5163</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>13:55</StartTime>
+				<ArriveTime>16:00</ArriveTime>
+				<Mode>737</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>246</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime8" msdata:rowOrder="7">
+				<Company>厦门航空</Company>
+				<AirlineCode>MF8225</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>13:55</StartTime>
+				<ArriveTime>16:00</ArriveTime>
+				<Mode>737</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>246</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime9" msdata:rowOrder="8">
+				<Company>山东航空</Company>
+				<AirlineCode>SC4701</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>14:45</StartTime>
+				<ArriveTime>16:45</ArriveTime>
+				<Mode>738</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>246</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime10" msdata:rowOrder="9">
+				<Company>中国国航</Company>
+				<AirlineCode>CA4701</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>14:45</StartTime>
+				<ArriveTime>16:45</ArriveTime>
+				<Mode>738</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>246</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime11" msdata:rowOrder="10">
+				<Company>厦门航空</Company>
+				<AirlineCode>MF868</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>15:05</StartTime>
+				<ArriveTime>17:10</ArriveTime>
+				<Mode>738</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>245日</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime12" msdata:rowOrder="11">
+				<Company>南方航空</Company>
+				<AirlineCode>CZ6232</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>20:05</StartTime>
+				<ArriveTime>22:10</ArriveTime>
+				<Mode>733</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>123456日</Week>
+			</AirlinesTime>
+			<AirlinesTime diffgr:id="AirlinesTime13" msdata:rowOrder="12">
+				<Company>厦门航空</Company>
+				<AirlineCode>MF852</AirlineCode>
+				<StartDrome>厦门高崎国际机场</StartDrome>
+				<ArriveDrome>郑州新郑国际机场</ArriveDrome>
+				<StartTime>20:40</StartTime>
+				<ArriveTime>22:40</ArriveTime>
+				<Mode>738</Mode>
+				<AirlineStop>0</AirlineStop>
+				<Week>123456日</Week>
+			</AirlinesTime>
+		</Airlines>
+	</diffgr:diffgram>
+</DataSet>
